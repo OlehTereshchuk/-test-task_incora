@@ -1,0 +1,14 @@
+.comment {
+  &__author {
+    color: #110761;
+  }
+
+  &__body {
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #110761;
+  }
+}

@@ -1,0 +1,92 @@
+.post {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #3483d1;
+  margin: 0 auto 30px;
+  width: 60%;
+  position: relative;
+
+  &:hover {
+    .post__icon {
+      display: block;
+    }
+  }
+  &__title {
+    max-width: max-content;
+    color: white;
+  }
+
+  &__link {
+    color: white;
+  }
+
+  &__icon {
+    cursor: pointer;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 10px;
+
+    &--edit {
+      background-image: url('/images/edit.svg');
+      right: 40px;
+    }
+
+    &--delete {
+      background-image: url('/images/delete.svg');
+      right: 10px;
+    }
+  }
+
+  &__edit-form {
+    display: block;
+    padding: 10px;
+    width: 400px;
+    background-color: #0d243ab5;
+    margin: auto;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  &__edit-textarea {
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    resize: none;
+  }
+
+  &__edit-submit {
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    width: 40px;
+    margin: auto;
+    font-weight: bold;
+  }
+
+  &__edit-close {
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    height: 16px;
+    width: 16px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.shadow {
+  box-shadow: 10px 5px 5px grey;
+}
+
