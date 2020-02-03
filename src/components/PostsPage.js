@@ -102,13 +102,13 @@ Body:
           </NavLink>
 
           <img
-            src="/images/edit.svg"
+            src="/-test-task_incora/images/edit.svg"
             alt="edit icon"
             className="post__icon post__icon--edit"
             onClick={() => handleEditClick(id)}
           />
           <img
-            src="/images/delete.svg"
+            src="/-test-task_incora/images/delete.svg"
             alt="delete icon"
             className="post__icon post__icon--delete"
             onClick={() => deletePost(id)}
