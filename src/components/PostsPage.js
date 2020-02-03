@@ -101,13 +101,15 @@ Body:
             All information
           </NavLink>
 
-          <button
-            type="button"
+          <img
+            src="/images/edit.svg"
+            alt="edit icon"
             className="post__icon post__icon--edit"
             onClick={() => handleEditClick(id)}
           />
-          <button
-            type="button"
+          <img
+            src="/images/delete.svg"
+            alt="delete icon"
             className="post__icon post__icon--delete"
             onClick={() => deletePost(id)}
           />
